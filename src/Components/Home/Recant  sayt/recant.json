@@ -1,0 +1,38 @@
+[
+    {
+        "name":"Startupbox",
+        "ip_adress":"https://startupbox.uz",
+        "img_src":"./img/Startupbox.png",
+        "title": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunalarini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarmadi. U 1960-yillarda Lorem Ipsum parchalarini o'z ichiga olgan Letraset varaqlarining chiqarilishi va yaqinda Aldus PageMaker kabi ish stoli nashriyot dasturlari, shu jumladan Lorem Ipsum versiyalari bilan ommalashgan."
+    },
+    {
+        "name":"Jasic",
+        "ip_adress":"https://jasictech.uz",
+        "img_src":"./img/Jasic.png",
+        "title": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunalarini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarmadi. U 1960-yillarda Lorem Ipsum parchalarini o'z ichiga olgan Letraset varaqlarining chiqarilishi va yaqinda Aldus PageMaker kabi ish stoli nashriyot dasturlari, shu jumladan Lorem Ipsum versiyalari bilan ommalashgan."
+    },
+    {
+        "name":"Ibs-Toshkent",
+        "ip_adress":"https://www.ibs-tashkent.uz",
+        "img_src":"./img/Ibs-toshkent.png",
+        "title": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunalarini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarmadi. U 1960-yillarda Lorem Ipsum parchalarini o'z ichiga olgan Letraset varaqlarining chiqarilishi va yaqinda Aldus PageMaker kabi ish stoli nashriyot dasturlari, shu jumladan Lorem Ipsum versiyalari bilan ommalashgan."
+    },
+    {
+        "name":"Emuni",
+        "ip_adress":"https://emuni.uz",
+        "img_src":"./img/Emuni.png",
+        "title": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunalarini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarmadi. U 1960-yillarda Lorem Ipsum parchalarini o'z ichiga olgan Letraset varaqlarining chiqarilishi va yaqinda Aldus PageMaker kabi ish stoli nashriyot dasturlari, shu jumladan Lorem Ipsum versiyalari bilan ommalashgan."
+    },
+    {
+        "name":"Cisuzbekistan",
+        "ip_adress":"https://www.cisuzbekistan.uz",
+        "img_src":"./img/Cisuzbekistan.png",
+        "title": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunalarini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarmadi. U 1960-yillarda Lorem Ipsum parchalarini o'z ichiga olgan Letraset varaqlarining chiqarilishi va yaqinda Aldus PageMaker kabi ish stoli nashriyot dasturlari, shu jumladan Lorem Ipsum versiyalari bilan ommalashgan."
+    },
+    {
+        "name":"Alldata",
+        "ip_adress":"https://alldata.uz",
+        "img_src":"./img/Alldata.png",
+        "title": "Lorem Ipsum matbaa va matn terish sanoatining oddiygina soxta matnidir. Lorem Ipsum 1500-yillardan beri sanoatning standart qo'g'irchoq matni bo'lib kelgan, o'shandan beri noma'lum printer galleyni olib, kitob namunalarini yaratish uchun shifrlagan. U nafaqat besh asr davomida, balki elektron terishga sakrashdan ham omon qoldi va deyarli o'zgarmadi. U 1960-yillarda Lorem Ipsum parchalarini o'z ichiga olgan Letraset varaqlarining chiqarilishi va yaqinda Aldus PageMaker kabi ish stoli nashriyot dasturlari, shu jumladan Lorem Ipsum versiyalari bilan ommalashgan."
+    }
+]

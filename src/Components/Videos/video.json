@@ -1,0 +1,52 @@
+[
+    {
+    "width":"560",
+    "height":315,
+    "Video_src":"https://www.youtube.com/embed/hP7K6HhTTXg",
+    "title":"Dasturlashni o'rganishda xorijiy tillar ya'ni ingliz tili, rus tili qanchalik ahamiyatli?"
+    },
+    {
+        "width":"560",
+        "height":315,
+        "Video_src":"https://www.youtube.com/embed/Hsm6WWncC0Q",
+        "title":"Dasturlash o'zi nima? | Dasturchi kim? | Dasturlashning qanday turlari bor?"
+    },
+    {
+        "width":"560",
+        "height":315,
+        "Video_src":"https://www.youtube.com/embed/WuxtoMOolxI",
+        "title":"Dasturlash o'zi nima? | Dasturchi kim? | Dasturlashning qanday turlari bor?"
+    }
+    ,
+    {
+        "width":"560",
+        "height":315,
+        "Video_src":"https://www.youtube.com/embed/_pOVA05MXr0",
+        "title":"MySQL darslari #4 UPDATE, DELETE (Ma'lumotlarni o'zgartirish va o'chirish)"
+    },
+    {
+        "width":"560",
+        "height":315,
+        "Video_src":"https://www.youtube.com/embed/hP7K6HhTTXg",
+        "title":"Dasturlashni o'rganishda xorijiy tillar ya'ni ingliz tili, rus tili qanchalik ahamiyatli?"
+        },
+        {
+            "width":"560",
+            "height":315,
+            "Video_src":"https://www.youtube.com/embed/Hsm6WWncC0Q",
+            "title":"Dasturlash o'zi nima? | Dasturchi kim? | Dasturlashning qanday turlari bor?"
+        },
+        {
+            "width":"560",
+            "height":315,
+            "Video_src":"https://www.youtube.com/embed/WuxtoMOolxI",
+            "title":"Dasturlash o'zi nima? | Dasturchi kim? | Dasturlashning qanday turlari bor?"
+        }
+        ,
+        {
+            "width":"560",
+            "height":315,
+            "Video_src":"https://www.youtube.com/embed/_pOVA05MXr0",
+            "title":"MySQL darslari #4 UPDATE, DELETE (Ma'lumotlarni o'zgartirish va o'chirish)"
+        }
+]

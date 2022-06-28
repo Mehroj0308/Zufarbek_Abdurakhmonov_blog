@@ -1,21 +1,20 @@
 import logo from './logo.svg';
+import React from 'react'
 import './App.css';
 import Entering from './Components/Enter/Entering'
-import Navbar from './Components/Home/Navbar/Navbar';
-import AsosiyPage from './Components/Home/Asosiy_page/Asosiy_page';
-import Recant from './Components/Home/Recant  sayt/Recant_work'
-import Fiture from './Components/Home/Fiture_works/Fiture';
-import Footer from './Components/Home/Footer/Footer';
+import Umumiy from './Components/Home/Umumiy';
+import Work from './Components/Work/Work';
+import Videos from './Components/Videos/Videos';
+
 
 function App() {
   return (
    <>
     {/* <Entering/> */}
-   <Navbar/>
-   <AsosiyPage/>
-   <Recant/>
-   <Fiture/>
-   <Footer/>
+   
+    {/* <Umumiy/> */}
+    {/* <Work/> */}
+    <Videos/>
    </>
   );
 }

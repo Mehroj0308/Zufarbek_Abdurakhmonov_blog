@@ -1,7 +1,19 @@
 import React from 'react';
 import './recant.css'
-
+import { useEffect ,useState } from 'react';
+import Axios from 'axios'
 const ReacentWork = () => {
+    const[data,setdata]=useState([])
+    useEffect(() => {
+        Axios("http://myjson.dit.upm.es/api/bins/csvf")
+        .then((ress)=>{
+            console.log(ress.data);
+            setdata(ress.data)
+        })
+        .catch((err)=>{
+            console.log("error keldi =>",err);
+        })
+    }, []);
     return (
         <div className='orqa_fon'>
             <div className='container '>
