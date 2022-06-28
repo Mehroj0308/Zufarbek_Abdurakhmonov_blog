@@ -3,9 +3,10 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div>
+    <div className=''>
       <div className='container'>
-        <div className='row'>
+        
+        <div className='row between'>
           <div className='col-6'>
             <ul>
               <li>
@@ -23,7 +24,7 @@ const Navbar = () => {
             </ul>
           </div>
           <div className='col-2'>
-            <img src="" alt="" />
+           <img className='logo' src="./img/Zufarbek_profil.jpg" alt="" />
           </div>
         </div>
       </div>

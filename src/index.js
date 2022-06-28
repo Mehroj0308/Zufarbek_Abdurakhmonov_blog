@@ -3,17 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Entering from './Components/Entering/Entering'
+
+// import Entering from './Components/Entering/Entering'
 // import Home from './Components/Home/Home'
-import Navbar from './Components/Navbar/Navbar'
+// import Navbar from './Components/Home/Navbar/Navbar'
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+
     {/* <Entering/> */}
     {/* <Home/> */}
-    <Navbar/>
+    {/* <Navbar/> */}
+
   </React.StrictMode>
 );
 
