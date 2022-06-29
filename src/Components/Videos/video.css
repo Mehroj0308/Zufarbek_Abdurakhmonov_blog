@@ -1,0 +1,9 @@
+.video_card{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.video_height{
+    height: 200px;
+}

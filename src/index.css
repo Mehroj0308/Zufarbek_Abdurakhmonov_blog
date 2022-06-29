@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.box_shodow{
+  box-shadow: 1px 2px 1px 2px rgb(52, 49, 49);
+  display: flex;
+  justify-content: space-between;
+}
+
+a{
+  text-decoration: none;
+}
+
+.font_size{
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.button{
+  width: 150px ;
+  display: flex;
+}

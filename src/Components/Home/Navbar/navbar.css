@@ -1,0 +1,26 @@
+ul{
+    display: flex;
+
+}
+ul li {
+    list-style-type: none;
+    margin: 30px;
+}
+ 
+ul li a{
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    margin-top: 10px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.asosiy{
+    margin-top: 30px;
+}
+
+.justify{
+    display: flex;
+    justify-content: flex-center;
+}
+
+.img{
+    border-radius: 30px;
+}
