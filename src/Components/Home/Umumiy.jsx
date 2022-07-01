@@ -8,11 +8,9 @@ import Footer from './Footer/Footer';
 const Umumiy = () => {
     return (
         <div>
-            <Navbar/>
             <AsosiyPage/>
             <Recant/>
             <Fiture/>
-            <Footer/>
         </div>
     );
 }

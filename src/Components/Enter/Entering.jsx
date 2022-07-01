@@ -5,12 +5,12 @@ import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TelegramIcon from '@mui/icons-material/Telegram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from 'react-router-dom';
 export default function Entered() {
   return (
     <div className='bg-blog d-flex flex-row justify-content-between row'>
       <div className="opacity d-flex flex-row justify-content-between row">
-  <div className='menu col-lg-1 col-md-1 col-sm-2 col-xs-2'>
-          <div><MenuIcon/></div>
+  <div className='menu col-lg-1 col-md-1 col-sm-2 col-xs-2 left-menu'>
           <div className='icons'>
             <FacebookRoundedIcon/>
             <InstagramIcon/>
@@ -28,8 +28,8 @@ export default function Entered() {
             <h2>Zufarbek Abdurakhmonov</h2>
             <p>Web , Mobile Senior developer</p>
             <div className="btns">
-              <button className='btn btn-primary '>Blog</button>
-              <button className='btn btn-primary'>Haqida</button>
+            <Link to="/blogs"><button className='btn btn-primary '>Blog</button></Link>  
+             <Link to="/about"><button className='btn btn-primary'>Haqida</button></Link> 
             </div>
             </div>
            
