@@ -30,4 +30,7 @@ a{
 .button{
   width: 150px ;
   display: flex;
+  /* justify-content: center; */
+  margin: 0 auto;
+
 }

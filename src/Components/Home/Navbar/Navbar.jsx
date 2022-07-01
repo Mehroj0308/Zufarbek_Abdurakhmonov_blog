@@ -1,12 +1,12 @@
 import React from "react";
 import "./navbar.css";
-import MenuIcon from "@mui/icons-material/Menu";
+// import MenuIcon from "@mui/icons-material/Menu";
 import {Link} from 'react-router-dom'
 const Navbar = () => {
   return (
-    <div className="navbar">
+    // <div className="navbar">
       <div className="container">
-        <div className="row between">
+        <div className="row  between">
           <div className="col-6">
             <ul>
               <li>
@@ -31,7 +31,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-    </div>
+    // </div>
   );
 };
 

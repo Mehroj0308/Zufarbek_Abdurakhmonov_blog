@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import blogs from "./blogs.json";
 import "./blogs.css";
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 
 export default function Blogs() {
@@ -38,40 +38,40 @@ export default function Blogs() {
                   <div className="card mt-5 p-2 shadow">
                     <div className="row ">
                       {
-                        (index%2 ===0)?
-                        <>
-                      <div className="col-6">
-                        <img src={arr.img_src} alt="" className="w-100 h-100" />
-                      </div>
+                        (index % 2 === 0) ?
+                          <>
+                            <div className="col-6">
+                              <img src={arr.img_src} alt="" className="w-100 h-100" />
+                            </div>
 
-                    <div className="col-6">
-                      <h1 className=" pt-2">{arr.title}</h1>
-                      <i className="text-success pt-2">{arr.date}</i>
-                      <p className=" pt-2">{arr.descripyion}</p>
-                         <Link to={`/blogs/${arr.id}`}>
-                         </Link>                        
-                      <button className="batafsil_btn btn text-primary">
-                        Batafsil
-                      </button>
-                    </div>
-                        </>
-                        :
-                        <>
-                           <div className="col-6">
-                      <h1 className=" pt-2">{arr.title}</h1>
-                      <i className="text-success pt-2">{arr.date}</i>
-                      <p className=" pt-2">{arr.descripyion}</p>
-                         <Link to={`/blogs/${arr.id}`}>
-                         </Link>
-                      <button className="batafsil_btn btn text-primary">
-                        Batafsil
-                      </button>
-                    </div>
+                            <div className="col-6">
+                              <h1 className=" pt-2">{arr.title}</h1>
+                              <i className="text-success pt-2">{arr.date}</i>
+                              <p className=" pt-2">{arr.descripyion}</p>
+                              <Link to={`/blogs/${arr.id}`}>
+                              </Link>
+                              <button className="batafsil_btn btn text-primary">
+                                Batafsil
+                              </button>
+                            </div>
+                          </>
+                          :
+                          <>
+                            <div className="col-6">
+                              <h1 className=" pt-2">{arr.title}</h1>
+                              <i className="text-success pt-2">{arr.date}</i>
+                              <p className=" pt-2">{arr.descripyion}</p>
+                              <Link to={`/blogs/${arr.id}`}>
+                              </Link>
+                              <button className="batafsil_btn btn text-primary">
+                                Batafsil
+                              </button>
+                            </div>
 
-                    <div className="col-6">
-                        <img src={arr.img_src} alt="" className="w-100 h-100" />
-                      </div>
-                        </>
+                            <div className="col-6">
+                              <img src={arr.img_src} alt="" className="w-100 h-100" />
+                            </div>
+                          </>
                       }
                     </div>
                   </div>
