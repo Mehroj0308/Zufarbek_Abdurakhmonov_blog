@@ -18,8 +18,8 @@ const Videos = () => {
         <div>
             {/* <iframe width="560" height="315" src="https://www.youtube.com/embed/hP7K6HhTTXg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  /* Bu  youtubedan kelayotgan videoga misol */ }
 
-            <div className='container'>
-                <b>Videolar</b>
+            <div className='container text-center'>
+                <b className='font_size'>Videolar</b>
                 <div className='row'>
                     {
                         data.map(item=>{

@@ -4,8 +4,10 @@
 }
 
 .orqa_fon{
-    height: 300px;
-    background-color: rgb(121, 229, 121);
+    /* height: 300px; */
+    /* background-color: aqua; */
+    /* background: linear-gradient(to top, #33ff36  30%, #3e6fe188 100%); */
+
 }
 
 .margin{
@@ -14,3 +16,21 @@
     align-items: center;
     margin-top: 30px;
 }
+
+.hover{
+    transition: 1s;
+}
+.hover:hover{
+    /* background: linear-gradient(to top, #33ff36 30%, #ff00ff 100%); */
+    transition: 1s;
+    box-shadow: 2px 3px 3px 2px black;
+    transform: translate(8px , -12px);
+    -ms-transform-origin-x: 30%;
+    /* opacity: 0.5; */
+    color: black;
+    
+}
+
+/* .hover:hover .bow{
+    box-shadow: 2px 2px 2px 2px black;
+} */

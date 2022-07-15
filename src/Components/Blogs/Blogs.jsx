@@ -34,7 +34,7 @@ export default function Blogs() {
           <>
             {page.map((arr, index) => {
               return (
-                <div className="col-12" key={index}>
+                <div className="col-lg-12" key={index}>
                   <div className="card mt-5 p-2 shadow">
                     <div className="row ">
                       {

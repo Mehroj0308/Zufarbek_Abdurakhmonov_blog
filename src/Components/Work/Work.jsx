@@ -26,44 +26,44 @@ const Work = () => {
                         data.map((item, index) => {
                             return (
                                 <>
-                                <div className='card shadow mt-5'>
-                                <div className='row'>
-                                    
-                                    {(index % 2 == 0) ?
-                                            < >
-                                                    <div className='col-3 mt-3'>
+                                    <div className='card shadow mt-5'>
+                                        <div className='row'>
+
+                                            {(index % 2 == 0) ?
+                                                < >
+                                                    <div className='col-lg-3 col-md-12 col-sm-12 mt-3'>
                                                         <a href={item.ip_adress}>
-                                                        <img className='w-100 height' src={item.img_src} alt="" />
+                                                            <img className='w-100 height' src={item.img_src} alt="" />
                                                         </a>
                                                     </div>
-                                                    <div className='col-9'>
+                                                    <div className='col-lg-9 col-md-12 col-sm-12'>
                                                         <h3 className='text-center'>{item.name}</h3>
                                                         <p className='mt-5 ms-5 '>{item.title}</p>
                                                         <a href={item.ip_adress}>
-                                                           <button className='btn btn-primary button  mt-4'>Korish</button>
+                                                            <button className='btn btn-primary button  mt-4'>Korish</button>
                                                         </a>
                                                     </div>
-                                              
-                                            </>
-    
-                                            :
-                                            <>
-                                                <div className='col-9'>
-                                                    <h3 className='text-center'>{item.name}</h3>
-                                                    <p className='mt-5 ms-5 '>{item.title}</p>
-                                                    <a href={item.ip_adress}>
-                                                           <button className='btn btn-primary button mt-4'>Korish</button>
-                                                     </a>
-                                                </div>
-                                                <div className='col-3'>
-                                                    <a href={item.ip_adress}>
-                                                    <img className='w-100 height' src={item.img_src} alt="" />
-                                                    </a>
-                                                </div>
-                                            </>
-                                        }
+
+                                                </>
+
+                                                :
+                                                <>
+                                                    <div className='col-lg-9 juft col-md-12 col-sm-12'>
+                                                        <h3 className='text-center'>{item.name}</h3>
+                                                        <p className='mt-5 ms-5 '>{item.title}</p>
+                                                        <a href={item.ip_adress}>
+                                                            <button className='btn btn-primary button mt-4'>Korish</button>
+                                                        </a>
+                                                    </div>
+                                                    <div className='col-lg-3 col-md-12 col-sm-12 mt-3'>
+                                                        <a href={item.ip_adress}>
+                                                            <img className='w-100 height' src={item.img_src} alt="" />
+                                                        </a>
+                                                    </div>
+                                                </>
+                                            }
+                                        </div>
                                     </div>
-                                </div>
                                 </>
 
                             )

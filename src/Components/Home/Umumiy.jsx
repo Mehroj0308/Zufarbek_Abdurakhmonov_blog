@@ -7,7 +7,7 @@ import Footer from './Footer/Footer';
 
 const Umumiy = () => {
     return (
-        <div>
+        <div className='umumiy'>
             <AsosiyPage/>
             <Recant/>
             <Fiture/>

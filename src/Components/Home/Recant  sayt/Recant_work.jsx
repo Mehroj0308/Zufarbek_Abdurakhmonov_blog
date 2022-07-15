@@ -16,29 +16,29 @@ const ReacentWork = () => {
     }, []);
     return (
         <div className='orqa_fon'>
-            <div className='container '>
-                <div className='row mt-5 margin'>
-                    <div className='col-3'>
-                        <div className='card box_shodow'>
-                            <h3 className='mt-4'>Qilingan prayektla4</h3>
+            <div className='container  mt-5'>
+                <div className='row  margin'>
+                       <div className='card hover  shadow text-center   col-lg-3  col-md-4 col-sm-6'>
+                           <div>
+                             <h3 className='mt-4'>Nima ishlar qilgani</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aperiam earum quaerat consequatur cumque labore saepe dolore libero fugiat officiis eveniet, voluptate distinctio dicta explicabo! Ad quod pariatur laboriosam laborum.</p>
+                           </div>
+                        </div>
+                    <div className='col-lg-3 col-md-4 col-sm-6'>
+                        <div className='card hover shadow text-center'>
+                            <h3 className='mt-4'>Nima ishlar qilgani</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aperiam earum quaerat consequatur cumque labore saepe dolore libero fugiat officiis eveniet, voluptate distinctio dicta explicabo! Ad quod pariatur laboriosam laborum.</p>
                         </div>
                     </div>
-                    <div className='col-3 '>
-                        <div className='card box_shodow'>
-                            <h3 className='mt-4'>Qilingan prayektla4</h3>
+                    <div className='col-lg-3 col-md-4 col-sm-6'>
+                        <div className='card hover  shadow text-center'>
+                            <h3 className='mt-4'>Nima ishlar qilgani</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aperiam earum quaerat consequatur cumque labore saepe dolore libero fugiat officiis eveniet, voluptate distinctio dicta explicabo! Ad quod pariatur laboriosam laborum.</p>
                         </div>
                     </div>
-                    <div className='col-3'>
-                        <div className='card box_shodow'>
-                            <h3 className='mt-4'>Qilingan prayektla4</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aperiam earum quaerat consequatur cumque labore saepe dolore libero fugiat officiis eveniet, voluptate distinctio dicta explicabo! Ad quod pariatur laboriosam laborum.</p>
-                        </div>
-                    </div>
-                    <div className='col-3'>
-                        <div className='card box_shodow'>
-                            <h3 className='mt-4'>Qilingan prayektla4</h3>
+                    <div className='col-lg-3 bow col-md-4 col-sm-6'>
+                        <div className='card hover shadow text-center'>
+                            <h3 className='mt-4'>Nima ishlar qilgani</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid aperiam earum quaerat consequatur cumque labore saepe dolore libero fugiat officiis eveniet, voluptate distinctio dicta explicabo! Ad quod pariatur laboriosam laborum.</p>
                         </div>
                     </div>
